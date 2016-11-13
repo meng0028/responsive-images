@@ -1,0 +1,58 @@
+body{
+    /* top and bottom margins are 0, right and left magins are auto = the browser automatically determines the left and right margins itself, whick it does by setting them equal.*/
+    margin: 0 auto;
+    font-family:"Helvetica","Arial",sans-serif;
+    line-height: 1.5;
+    padding: 0 auto;
+    background-color: #555555;
+    
+}
+.wrapper{
+    width: 95%;
+    margin: 1em auto;
+}
+h1{
+    text-align: center;
+    font-size: 3em;
+}
+h2{
+    text-align: center;
+    font-size: 2em;
+}
+ul{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+li{
+    width: 100%;
+    list-style: none;
+    float: left;
+    margin-top: 1em;
+    text-align: center;
+}
+picture, img{
+    max-width: 90%;
+}
+footer{
+    text-align: center;
+    font-size: 1.5em;
+    clear: both;
+}
+
+@media screen and (min-width: 600px){
+    li{
+        width: 50%;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    li{
+        width: 25%;
+    }  
+}
+/*
+Image Copyright 
+Markus Spiske - https: //500px.com/markusspiske (Links to an external site.) 
+Yinan Chen - https: //500px.com/webmaster85 (Links to an external site.) 
+Fahim Akhter - https: //500px.com/fahimakhter (Links to an external site.)*/
